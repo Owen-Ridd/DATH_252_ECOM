@@ -17,7 +17,11 @@ connectDB();
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://dath-252-ecom.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 
 // Sử dụng tất cả routes với tiền tố /api
 app.use('/api', apiRoutes);
