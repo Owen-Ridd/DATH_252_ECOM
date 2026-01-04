@@ -17,7 +17,7 @@ const AboutPage = () => {
             <div className="col-md-6 mb-4 mb-md-0">
                <div className="position-relative overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?q=80&w=2070&auto=format&fit=crop" 
+                    src="/images/our-studio.png" 
                     alt="Our Studio" 
                     className="img-fluid w-100"
                     style={{objectFit: "cover", height: "500px", filter: "brightness(0.9)"}}
@@ -114,7 +114,7 @@ const AboutPage = () => {
               <div className="card h-100 border-0 bg-transparent text-center">
                 <div className="position-relative overflow-hidden mb-3" style={{height: "250px"}}>
                    <img className="img-fluid w-100 h-100 object-fit-cover transition-transform" 
-                        src="https://images.unsplash.com/photo-1505693416381-b7c3c41faa19?q=80&w=2069&auto=format&fit=crop" 
+                        src="/images/bedroom.png" 
                         alt="Bedroom" 
                         style={{transition: "transform 0.6s ease"}}
                         onMouseOver={(e) => e.currentTarget.style.transform = "scale(1.1)"}
@@ -128,8 +128,8 @@ const AboutPage = () => {
               <div className="card h-100 border-0 bg-transparent text-center">
                 <div className="position-relative overflow-hidden mb-3" style={{height: "250px"}}>
                    <img className="img-fluid w-100 h-100 object-fit-cover transition-transform" 
-                        src="https://images.unsplash.com/photo-1513506003013-d53163215b42?q=80&w=2070&auto=format&fit=crop" 
-                        alt="Decor" 
+                        src="/images/lighting-decor.png" 
+                        alt="Lighting & Decor" 
                         style={{transition: "transform 0.6s ease"}}
                         onMouseOver={(e) => e.currentTarget.style.transform = "scale(1.1)"}
                         onMouseOut={(e) => e.currentTarget.style.transform = "scale(1.0)"}
